@@ -35,8 +35,9 @@ As a business analyst on this project, I played a key role in defining the requi
 - Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
 
 ![Search_Jira](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/0343afce-178a-471b-9d2f-0d45e3edc48f)
-![MO1](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/9d6fa680-75f7-4698-ad6a-76714e543b00)
-![MO2](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/c97a6e07-94c5-4388-820b-c1605f9df40c)
+![MO1](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/99e8956d-84ac-439d-9e66-da4b1b4f13c5)
+![MO2](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/df17b534-e15a-4c41-8db3-6f4b329a953d)
+
 ![View_MO](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/be593b5e-505a-4350-b1c1-80b2ab50a7b5)
 
 2. **Database Design:**
