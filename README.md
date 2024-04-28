@@ -3,11 +3,12 @@
 ![carlos-muza-hpjSkU2UYSU-unsplash](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/b2d71c6f-a49d-45b8-8bea-10176bde306a)
 
 ### Problem Statement
+---
 As a manufacturer, you receive RFQs from customers for multiple products and variants. Analyzing these requests manually can be time-consuming and complex, requiring consideration of factors such as production time, budget constraints, potential profit margins, and risk factors associated with each choice. You need a software solution that can efficiently process this information and identify the top three choices based on criteria such as speed, cost-effectiveness, and risk mitigation.
 ### Proposed Solution
 The proposed automated quote analysis system will utilize advanced data analytics techniques to analyze RFQs and provide recommendations for the three best choices, considering factors such as production time, budget constraints, profitability, and risk factors. Here's an overview of how the system will work:
 ### Project Features
-
+---
 1. **Data Integration:**
    - The system will integrate data from various sources, including historical RFQs, production schedules, cost data, and risk assessments.
 
@@ -23,15 +24,13 @@ The proposed automated quote analysis system will utilize advanced data analytic
 5. **User-Friendly Interface:**
    - The system will feature a user-friendly interface that allows users to input RFQ data and access analysis results easily. It will also provide interactive features for scenario analysis and sensitivity testing.
   
-   - ## Hypersense Manufacturing Order Management System
-
-Welcome to the Hypersense Manufacturing Order Management System GitHub repository! This project is aimed at streamlining the manufacturing order process for our clients by providing an efficient and user-friendly solution.
 
 ### Project Overview
-
+---
 As a business analyst on this project, I played a key role in defining the requirements, designing the database schema, and contributing to the user interface design. Here's a breakdown of my contributions:
 
 1. **Requirements Gathering:**
+---
    - Collaborated with cross-functional teams to gather requirements and understand the needs of our clients.
    - Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
 
