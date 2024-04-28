@@ -30,7 +30,6 @@ The proposed automated quote analysis system will utilize advanced data analytic
 As a business analyst on this project, I played a key role in defining the requirements, designing the database schema, and contributing to the user interface design. Here's a breakdown of my contributions:
 
 1. **Requirements Gathering:**
----
    - Collaborated with cross-functional teams to gather requirements and understand the needs of our clients.
    - Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
 
