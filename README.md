@@ -4,7 +4,7 @@
 
 ### Problem Statement
 ---
-As a manufacturer, you receive RFQs from customers for multiple products and variants. Analyzing these requests manually can be time-consuming and complex, requiring consideration of factors such as production time, budget constraints, potential profit margins, and risk factors associated with each choice. You need a software solution that can efficiently process this information and identify the top three choices based on criteria such as speed, cost-effectiveness, and risk mitigation.
+As a manufacturer, the process of responding to customer requests for quotes (RFQs) for multiple product variants poses significant challenges in terms of time, budget, and risk assessment. Without a systematic approach to analyze available data and calculate key metrics, such as production time, material costs, and potential profits, the manufacturer struggles to prioritize and optimize production decisions. Additionally, the lack of visibility into inventory levels, production capacities, and market demand further complicates the decision-making process, leading to suboptimal outcomes and increased risk exposure. To address these challenges and improve operational efficiency, the manufacturer seeks a software solution that can accurately assess the time, budget, and risk factors associated with fulfilling customer RFQs, enabling informed decision-making and maximizing profitability while minimizing risk.
 ### Proposed Solution
 ---
 The proposed automated quote analysis system will utilize advanced data analytics techniques to analyze RFQs and provide recommendations for the three best choices, considering factors such as production time, budget constraints, profitability, and risk factors. Here's an overview of how the system will work:
