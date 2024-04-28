@@ -50,7 +50,6 @@ As a business analyst on this project, I played a key role in defining the requi
    - Ensured optimal performance and data accuracy through efficient query design and optimization techniques.
 
 ```sql
-```sql
 -- Table: ManufacturingOrders
 CREATE TABLE ManufacturingOrders (
     Id INT PRIMARY KEY,
@@ -158,8 +157,6 @@ CREATE TABLE product_group (
 );
 ```
 
-
-```
 
 4. **User Interface Design:**
    - Leveraged FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
