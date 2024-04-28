@@ -6,6 +6,7 @@
 ---
 As a manufacturer, you receive RFQs from customers for multiple products and variants. Analyzing these requests manually can be time-consuming and complex, requiring consideration of factors such as production time, budget constraints, potential profit margins, and risk factors associated with each choice. You need a software solution that can efficiently process this information and identify the top three choices based on criteria such as speed, cost-effectiveness, and risk mitigation.
 ### Proposed Solution
+---
 The proposed automated quote analysis system will utilize advanced data analytics techniques to analyze RFQs and provide recommendations for the three best choices, considering factors such as production time, budget constraints, profitability, and risk factors. Here's an overview of how the system will work:
 ### Project Features
 ---
@@ -30,8 +31,8 @@ The proposed automated quote analysis system will utilize advanced data analytic
 As a business analyst on this project, I played a key role in defining the requirements, designing the database schema, and contributing to the user interface design. Here's a breakdown of my contributions:
 
 1. **Requirements Gathering:**
-   - Collaborated with cross-functional teams to gather requirements and understand the needs of our clients.
-   - Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
+- Collaborated with cross-functional teams to gather requirements and understand the needs of our clients.
+- Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
 
 ![Search_Jira](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/0343afce-178a-471b-9d2f-0d45e3edc48f)
 ![MO1](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/9d6fa680-75f7-4698-ad6a-76714e543b00)
@@ -39,16 +40,16 @@ As a business analyst on this project, I played a key role in defining the requi
 ![View_MO](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/be593b5e-505a-4350-b1c1-80b2ab50a7b5)
 
 2. **Database Design:**
-   - Crafted a comprehensive database schema to support the manufacturing order epic.
-   - Designed tables to represent entities such as Manufacturing Orders, Plants, Customers, Countries, Users, Manufacturing Order Items, Products, Bill of Materials, and Components.
-   - Established one-to-many relationships between the tables to ensure data integrity and efficient data management.
+- Crafted a comprehensive database schema to support the manufacturing order epic.
+- Designed tables to represent entities such as Manufacturing Orders, Plants, Customers, Countries, Users, Manufacturing Order Items, Products, Bill of Materials, and Components.
+- Established one-to-many relationships between the tables to ensure data integrity and efficient data management.
 
 ![ManufacturingOrder-database-schema](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/f9897c53-bcbb-4089-84d9-69895d62a3e0)
 
 
 3. **SQL Queries:**
-   - Developed SQL queries to implement the database schema and support the functionality required by the manufacturing order process.
-   - Ensured optimal performance and data accuracy through efficient query design and optimization techniques.
+- Developed SQL queries to implement the database schema and support the functionality required by the manufacturing order process.
+- Ensured optimal performance and data accuracy through efficient query design and optimization techniques.
 
 ```sql
 -- Table: ManufacturingOrders
@@ -160,9 +161,9 @@ CREATE TABLE product_group (
 
 
 4. **User Interface Design:**
-   - Leveraged FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
-   - Incorporated various elements such as a search bar, navigation bars, results set card, price sliders, text box and buttons, date input field and calendar picker, filter, and sorting options.
-   - Ensured a seamless user experience by focusing on usability, accessibility, and visual appeal in the design of the user interface.
+- Leveraged FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
+- Incorporated various elements such as a search bar, navigation bars, results set card, price sliders, text box and buttons, date input field and calendar picker, filter, and sorting options.
+- Ensured a seamless user experience by focusing on usability, accessibility, and visual appeal in the design of the user interface.
 
 ![SearchPage_Figma](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/e74254a1-3aaf-4c31-8b91-5d3159eafcb2)
 
