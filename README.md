@@ -1,4 +1,4 @@
-# Business-Solution_Automated-Quote-Analysis-System
+# Business Solution: Automated Quote Analysis System
 
 ![carlos-muza-hpjSkU2UYSU-unsplash](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/b2d71c6f-a49d-45b8-8bea-10176bde306a)
 
@@ -31,6 +31,7 @@ The proposed automated quote analysis system will utilize advanced data analytic
 As a business analyst on this project, I played a key role in defining the requirements, designing the database schema, and contributing to the user interface design. Here's a breakdown of my contributions:
 
 1. **Requirements Gathering:**
+---
 - Collaborated with cross-functional teams to gather requirements and understand the needs of our clients.
 - Translated business requirements into user stories and epics in Jira, focusing on the manufacturing order process.
 
@@ -40,6 +41,7 @@ As a business analyst on this project, I played a key role in defining the requi
 ![View_MO](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/be593b5e-505a-4350-b1c1-80b2ab50a7b5)
 
 2. **Database Design:**
+---
 - Crafted a comprehensive database schema to support the manufacturing order epic.
 - Designed tables to represent entities such as Manufacturing Orders, Plants, Customers, Countries, Users, Manufacturing Order Items, Products, Bill of Materials, and Components.
 - Established one-to-many relationships between the tables to ensure data integrity and efficient data management.
@@ -48,6 +50,7 @@ As a business analyst on this project, I played a key role in defining the requi
 
 
 3. **SQL Queries:**
+---
 - Developed SQL queries to implement the database schema and support the functionality required by the manufacturing order process.
 - Ensured optimal performance and data accuracy through efficient query design and optimization techniques.
 
@@ -161,11 +164,12 @@ CREATE TABLE product_group (
 
 
 4. **User Interface Design:**
+---
 - Leveraged FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
 - Incorporated various elements such as a search bar, navigation bars, results set card, price sliders, text box and buttons, date input field and calendar picker, filter, and sorting options.
 - Ensured a seamless user experience by focusing on usability, accessibility, and visual appeal in the design of the user interface.
 
 ![SearchPage_Figma](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/e74254a1-3aaf-4c31-8b91-5d3159eafcb2)
 
-
-Thank you for your interest in the Hypersense Manufacturing Order Management System! We look forward to your contributions and feedback. If you have any questions or suggestions, please feel free to reach out to us.
+---
+Thank you for your interest.
