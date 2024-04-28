@@ -1,4 +1,4 @@
-# Business Solution: Automated Quote Analysis System
+# Automated Quote Analysis System: Smart Factory
 
 ![carlos-muza-hpjSkU2UYSU-unsplash](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/b2d71c6f-a49d-45b8-8bea-10176bde306a)
 
