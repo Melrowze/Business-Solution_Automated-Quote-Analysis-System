@@ -165,6 +165,7 @@ CREATE TABLE product_group (
 ```
 
 
+
 4. **User Interface Design:**
 ---
 - Used FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
