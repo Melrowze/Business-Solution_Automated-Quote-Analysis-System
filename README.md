@@ -3,6 +3,7 @@
 ![carlos-muza-hpjSkU2UYSU-unsplash](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/b2d71c6f-a49d-45b8-8bea-10176bde306a)
 
 ### Problem Statement
+---
 As a manufacturer, the process of responding to customer requests for quotes (RFQs) for multiple product variants poses significant challenges in terms of time, budget, and risk assessment. Without a systematic approach to analyze available data and calculate key metrics, such as production time, material costs, and potential profits, the manufacturer struggles to prioritize and optimize production decisions. Additionally, the lack of visibility into inventory levels, production capacities, and market demand further complicates the decision-making process, leading to suboptimal outcomes and increased risk exposure. 
 
 To address these challenges and improve operational efficiency, the manufacturer seeks a software solution that can accurately assess the time, budget, and risk factors associated with fulfilling customer RFQs, enabling informed decision-making and maximizing profitability while minimizing risk.
