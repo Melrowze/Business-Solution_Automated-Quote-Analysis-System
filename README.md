@@ -50,132 +50,113 @@ As a business analyst on this project, I played a key role in defining the requi
    - Ensured optimal performance and data accuracy through efficient query design and optimization techniques.
 
 ```sql
-Table ManufacturingOrders {
-  Id int [primary key]
-  PlantId int
-  UserId int [not null, unique]
-  Type varchar
-  CustomerId int
-  Status varchar
-  ScheduledDate date
-  CreatedAt varchar
-}
+```sql
+-- Table: ManufacturingOrders
+CREATE TABLE ManufacturingOrders (
+    Id INT PRIMARY KEY,
+    PlantId INT,
+    UserId INT NOT NULL UNIQUE,
+    Type VARCHAR,
+    CustomerId INT,
+    Status VARCHAR,
+    ScheduledDate DATE,
+    CreatedAt VARCHAR
+);
 
-Table ManufacturingOrderItems [headercolor: #d35400] {
-  Id int
-  ProductId int
-  Quantity int
-}
+-- Table: ManufacturingOrderItems
+CREATE TABLE ManufacturingOrderItems (
+    Id INT,
+    ProductId INT,
+    Quantity INT
+);
 
-Table Products [headercolor: #d35400] {
-  Id int [primary key]
-  Name varchar
-  ModelId varchar
-  Sku varchar
-  Colour varchar
-  Weight decimal
-  WeightUom_id varchar
-  StandardCost decimal
-  Price decimal
-  Status varchar
-  CreatedAt varchar
-  CategoryId int
-}
+-- Table: Products
+CREATE TABLE Products (
+    Id INT PRIMARY KEY,
+    Name VARCHAR,
+    ModelId VARCHAR,
+    Sku VARCHAR,
+    Colour VARCHAR,
+    Weight DECIMAL,
+    WeightUom_id VARCHAR,
+    StandardCost DECIMAL,
+    Price DECIMAL,
+    Status VARCHAR,
+    CreatedAt VARCHAR,
+    CategoryId INT
+);
 
-Table BillOfMaterials [headercolor: #d35400] {
-  Id int
-  ProductId int
-  ComponentId int
-  ProductAssemblyId int
-  Quantity int
-  UomId varchar
-}
+-- Table: BillOfMaterials
+CREATE TABLE BillOfMaterials (
+    Id INT,
+    ProductId INT,
+    ComponentId INT,
+    ProductAssemblyId INT,
+    Quantity INT,
+    UomId VARCHAR
+);
 
-Table Components {
-  Id int [primary key]
-  Name varchar
-  Price decimal
-}
+-- Table: Components
+CREATE TABLE Components (
+    Id INT PRIMARY KEY,
+    Name VARCHAR,
+    Price DECIMAL
+);
 
-Table Users {
-  Id int [primary key]
-  FirstName varchar
-  LastName varchar
-  Role varchar
-  Email varchar [unique]
-  Gender varchar
-  DateOfBirth date
-  CreatedAt varchar
-  CountryId int
-}
+-- Table: Users
+CREATE TABLE Users (
+    Id INT PRIMARY KEY,
+    FirstName VARCHAR,
+    LastName VARCHAR,
+    Role VARCHAR,
+    Email VARCHAR UNIQUE,
+    Gender VARCHAR,
+    DateOfBirth DATE,
+    CreatedAt VARCHAR,
+    CountryId INT
+);
 
-Table Customers {
-  Id int [primary key]
-  AdminId int
-  Name varchar
-  CountryId int
-  CreatedAt varchar
-  
-}
+-- Table: Customers
+CREATE TABLE Customers (
+    Id INT PRIMARY KEY,
+    AdminId INT,
+    Name VARCHAR,
+    CountryId INT,
+    CreatedAt VARCHAR
+);
 
-Table Plants {
-  Id int [primary key]
-  CountryId int
-}
+-- Table: Plants
+CREATE TABLE Plants (
+    Id INT PRIMARY KEY,
+    CountryId INT
+);
 
-Table Countries {
-  Id int [primary key]
-  Name varchar
-  ContinentName varchar
-}
+-- Table: Countries
+CREATE TABLE Countries (
+    Id INT PRIMARY KEY,
+    Name VARCHAR,
+    ContinentName VARCHAR
+);
 
-Ref {
-  ManufacturingOrders.UserId > Users.Id
-}
-Ref {
-  ManufacturingOrderItems.Id > ManufacturingOrders.Id
-}
+-- Foreign Key References
+ALTER TABLE ManufacturingOrders ADD CONSTRAINT fk_manufacturing_orders_user FOREIGN KEY (UserId) REFERENCES Users(Id);
+ALTER TABLE ManufacturingOrderItems ADD CONSTRAINT fk_manufacturing_order_items_manufacturing_orders FOREIGN KEY (Id) REFERENCES ManufacturingOrders(Id);
+ALTER TABLE ManufacturingOrderItems ADD CONSTRAINT fk_manufacturing_order_items_products FOREIGN KEY (ProductId) REFERENCES Products(Id);
+ALTER TABLE ManufacturingOrders ADD CONSTRAINT fk_manufacturing_orders_customers FOREIGN KEY (CustomerId) REFERENCES Customers(Id);
+ALTER TABLE BillOfMaterials ADD CONSTRAINT fk_bill_of_materials_products FOREIGN KEY (ProductId) REFERENCES Products(Id);
+ALTER TABLE Users ADD CONSTRAINT fk_users_countries FOREIGN KEY (CountryId) REFERENCES Countries(Id);
+ALTER TABLE Customers ADD CONSTRAINT fk_customers_users FOREIGN KEY (AdminId) REFERENCES Users(Id);
+ALTER TABLE ManufacturingOrders ADD CONSTRAINT fk_manufacturing_orders_plants FOREIGN KEY (PlantId) REFERENCES Plants(Id);
+ALTER TABLE Customers ADD CONSTRAINT fk_customers_countries FOREIGN KEY (CountryId) REFERENCES Countries(Id);
+ALTER TABLE Plants ADD CONSTRAINT fk_plants_countries FOREIGN KEY (CountryId) REFERENCES Countries(Id);
+ALTER TABLE BillOfMaterials ADD CONSTRAINT fk_bill_of_materials_components FOREIGN KEY (ComponentId) REFERENCES Components(Id);
 
-Ref {
-  ManufacturingOrderItems.ProductId > Products.Id
-}
-
-Ref {
-  ManufacturingOrders.CustomerId > Customers.Id
-}
-
-Ref {
-  BillOfMaterials.ProductId > Products.Id
-}
-
-Ref {
-  Users.CountryId > Countries.Id
-}
-
-Ref {
-  Customers.AdminId > Users.Id
-}
-
-Ref {
-  ManufacturingOrders.PlantId > Plants.Id
-}
-
-Ref {
-  Customers.CountryId > Countries.Id
-}
-
-Ref {
-  Plants.CountryId > Countries.Id
-}
-
-Ref {
-  BillOfMaterials.ComponentId > Components.Id
-}
-
-tablegroup product_group {
-  Products
-  ManufacturingOrderItems
-}
+-- Table Grouping
+CREATE TABLE product_group (
+    Products,
+    ManufacturingOrderItems
+);
+```
 
 
 ```
