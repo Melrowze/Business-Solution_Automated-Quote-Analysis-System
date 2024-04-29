@@ -168,7 +168,7 @@ CREATE TABLE product_group (
 
 4. **User Interface Design:**
 ---
-- Used FIGMA to design the Search Manufacturing Orders page, a crucial component of the Hypersense solution.
+- Used FIGMA to design the Search Manufacturing Orders page, a crucial component of interface.
 - Incorporated various elements such as a search bar, navigation bars, results set card, price sliders, text box and buttons, date input field and calendar picker, filter, and sorting options.
 - Ensured a seamless user experience by focusing on usability, accessibility, and visual appeal in the design of the user interface.
 
