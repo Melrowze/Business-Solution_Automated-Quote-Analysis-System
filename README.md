@@ -172,7 +172,7 @@ CREATE TABLE product_group (
 - Incorporated various elements such as a search bar, navigation bars, results set card, price sliders, text box and buttons, date input field and calendar picker, filter, and sorting options.
 - Ensured a seamless user experience by focusing on usability, accessibility, and visual appeal in the design of the user interface.
 
-![SearchPage_Figma](https://github.com/Melrowze/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/e74254a1-3aaf-4c31-8b91-5d3159eafcb2)
-
+![SearchPage_Figma3](https://github.com/oyinadedoyin/Business-Solution_Automated-Quote-Analysis-System/assets/44920093/cc7e4856-6d9f-4f59-9ca1-c177ad5f732a)
 ---
+
 Thank you for your interest.
